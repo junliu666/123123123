@@ -1,0 +1,1 @@
+<view><view><block wx:for="{{userAddress}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><view>{{''+item.address+''}}</view></block></block></view></view>

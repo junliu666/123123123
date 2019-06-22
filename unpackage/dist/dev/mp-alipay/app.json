@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order/order",
+    "pages/mine/mine",
+    "pages/index/invite/invite",
+    "pages/index/env/env",
+    "pages/order/shop/shop-info/shop-info",
+    "pages/order/shop/prod-info/prod-info",
+    "pages/order/shop/shop-comment/shop-comment",
+    "pages/order/confirm/confirm/confirm",
+    "pages/order/confirm/payment-result/payment-result",
+    "pages/mine/profile/profile",
+    "pages/mine/address-manage/address-manage",
+    "pages/mine/partner/partner",
+    "pages/mine/service/service",
+    "pages/mine/aboutus/aboutus",
+    "pages/index/location/location",
+    "pages/reg/reg"
+  ],
+  "window": {
+    "defaultTitle": "uni-app",
+    "titleBarColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "textColor": "#6495ED",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#E6E6FA",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "主页"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "name": "订单"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "name": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

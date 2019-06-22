@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationBarBackgroundColor": "white",
+  "usingComponents": {
+    "searchinput": "/components/search-input",
+    "shoppicker": "/components/shop-pickers",
+    "shopdesc": "/components/shopdesc",
+    "viewshop": "/components/viewed-shop"
+  }
+}

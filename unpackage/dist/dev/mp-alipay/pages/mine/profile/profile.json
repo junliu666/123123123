@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "个人信息",
+  "usingComponents": {
+    "touxiang": "/components/touxiang"
+  }
+}

@@ -1,0 +1,54 @@
+{
+    "shops": [
+        {
+            "id": "s01",
+			"icon": "../static/shop-1.png",
+            "name": "店铺1",
+            "star": "3",
+            "type": "杭帮菜",
+            "tag": ["热情", "周到"],
+            "sale": ["10元优惠卷", "满30减10"],
+            "send": ["到店自取", "店家配送"],
+            "location": "滨江小区"
+        },
+        {
+            "id": "s02",
+            "name": "店铺2",
+			"icon": "../static/shop-2.jpg",
+            "star": "5",
+            "type": "四川菜",
+            "tag": ["便宜", "好吃"],
+            "sale": ["2元优惠卷", "买二送一"],
+            "send": ["骑手配送"],
+            "location": "萧山小区"
+        }
+    ],
+    "viewed": [
+        {
+            "id": "s01",   
+            "name": "店铺2"
+        }
+    ],
+	"order": [
+		{
+			"id": "o01",
+			"proName": "【纯手工无添加】网红鸡蛋卷180g/盒...",
+			"shopid": "s01",
+			"shopName": "天下第一商铺",
+			"pimg": "../static/pro-1.png",
+			"pprice": "￥25.8",
+			"otime": "2019.06.02",
+			"ostatus": "订单取消"
+		},
+		{
+			"id": "o01",
+			"proName": "【纯手工无添加】网红鸡蛋卷180g/盒...",
+			"shopid": "s01",
+			"shopName": "天下第一商铺",
+			"pimg": "../static/pro-2.jpg",
+			"pprice": "￥25.8",
+			"otime": "2019.06.02",
+			"ostatus": "订单取消"
+		}
+	]
+}

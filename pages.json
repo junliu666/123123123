@@ -1,0 +1,131 @@
+{
+	"tabBar":{
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index"
+			},
+			{
+				"text": "订单",
+				"pagePath": "pages/order/order"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/mine/mine"
+			}]
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"navigationBarBackgroundColor": "white"
+
+			}
+		},
+		{
+            "path" : "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+        },
+		{
+			"path": "pages/index/invite/invite",
+			"style": {
+				"navigationBarTitleText": "邀请"
+			}
+		},
+		{
+			"path": "pages/index/env/env",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/order/shop/shop-info/shop-info",
+			"style": {
+				"navigationBarTitleText": "店铺详情"
+			}
+		},
+		{
+			"path": "pages/order/shop/prod-info/prod-info",
+			"style": {
+				"navigationBarTitleText": "商品描述"
+			}
+		},
+		{
+			"path": "pages/order/shop/shop-comment/shop-comment",
+			"style": {
+				"navigationBarTitleText": "商铺评价"
+			}
+		},
+		{
+			"path": "pages/order/confirm/confirm/confirm",
+			"style": {
+				"navigationBarTitleText": "订单确认"
+			}
+		},
+		{
+			"path": "pages/order/confirm/payment-result/payment-result",
+			"style": {
+				"navigationBarTitleText": "支付结果"
+			}
+		},
+		{
+			"path": "pages/mine/profile/profile",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/mine/address-manage/address-manage",
+			"style": {
+				"navigationBarTitleText": "地址管理"
+			}
+		},
+		{
+			"path": "pages/mine/partner/partner",
+			"style": {
+				"navigationBarTitleText": "合伙人"
+			}
+		},
+		{
+			"path": "pages/mine/service/service",
+			"style": {
+				"navigationBarTitleText": "服务协议"
+			}
+		},
+		{
+			"path": "pages/mine/aboutus/aboutus",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		}
+        ,{
+            "path" : "pages/index/location/location",
+            "style" : {
+				"navigationBarTitleText": "地址管理"
+			}
+        }
+        ,{
+            "path" : "pages/reg/reg",
+            "style" : {
+				"navigationBarTitleText": "注册"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"usingComponents": {
+	}
+}

@@ -1,0 +1,1 @@
+<view><view><block a:for="{{userAddress}}" a:for-item="item" a:for-index="index" a:key="index"><block><view>{{''+item.address+''}}</view></block></block></view></view>

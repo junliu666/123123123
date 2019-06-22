@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "首页",
+  "usingComponents": {
+    "searchinput": "/components/search-input",
+    "shoppicker": "/components/shop-pickers",
+    "shopdesc": "/components/shopdesc"
+  }
+}

@@ -1,0 +1,1 @@
+<view><button type="primary" data-event-opts="{{[['tap',[['toIndex',['$event']]]]]}}" onTap="__e">index</button><navigator url="../index">index n</navigator></view>

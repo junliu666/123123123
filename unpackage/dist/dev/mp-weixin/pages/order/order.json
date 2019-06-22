@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "订单",
+  "navigationBarBackgroundColor": "white",
+  "usingComponents": {
+    "tabbar": "/components/tabbar",
+    "orderall": "/components/orderall",
+    "ordercomment": "/components/ordercomment",
+    "orderget": "/components/orderget",
+    "orderpay": "/components/orderpay",
+    "ordersend": "/components/ordersend"
+  }
+}
